@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!---------- bootstrap css link ---------->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <!---------font awesome link-------->
+    <script src="https://kit.fontawesome.com/ccb780018f.js" crossorigin="anonymous"></script>
+
+     <!-------animation link------>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+     <!-- Roboto Font link -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,700&display=swap" rel="stylesheet">
+    
+    <!------------ footer css link ------------>
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+
+    <div class="header">
+        <img src="img/globe1.png">
+        <ul>
+            <li><a href="#" class="active"><i class="fa fa-home"><span>Home</span></i></a></li>
+            <li><a href="#" class="active"><i class="fa fa-rss"><span>Blog</span></i></a></li>
+            <li><a href="#" class="active"><i class="fas fa-user"><span>login</span></i></a></li>
+            <li><a href="#" class="active"><i class="fas fa-sign-in-alt"><span>signup</span></i></a></li>
+        </ul>
+    </div>
+
+    <input type="checkbox" id="chk">
+    <label for="chk" class="show-btn">
+        <i class="fa fa-bars"></i>
+    </label>
+    <label for="chk" class="hide-btn">
+        <i class="fa fa-times"></i>
+    </label>
+
+    <div class="content">
+        <div class="home">
+            <div class="slider">
+                <div class="slide active" style="background-image: url('img/b1.jpg');">
+                    <div class="container">
+                        <div class="caption">
+                            <h2 class="text animated zoomIn delay-1s">Enjoy your dreams</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide active" style="background-image: url('img/b2.jpg');">
+                    <div class="container">
+                        <div class="caption">
+                            <h2 class="text animated zoomIn delay-1s">Enjoy your dreams</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide active" style="background-image: url('img/b3.jpg');">
+                    <div class="container">
+                        <div class="caption">
+                            <h2 class="text animated zoomIn delay-1s">Enjoy your dreams</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!---------  controls  ------>
+            <div class="controls">
+                <div class="prev"><</div>
+                <div class="next">></div>
+            </div>
+
+            <!-----  indicators  ----->
+            <div class="indicator">
+
+            </div>
+
+        </div>
+
+        <!---------- Sponsers section -------->
+        <section id="sponser">
+			<h2 class="s-title">Sponsors</h2>
+			<span class="s-line"></span>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 sponser-box">
+						<img src="img/dollar.jpg">
+						<h3>Competitive Pricing</h3>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					</div>
+					<div class="col-md-3 sponser-box">
+						<img src="img/badge.jpg">
+						<h3>Award-winning Services</h3>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					</div>
+					<div class="col-md-3 sponser-box">
+						<img src="img/globe.png">
+						<h3>Worldwide Coverage</h3>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					</div>
+				</div>
+			</div>
+        </section>
+        
+
+        <!-- Background -->
+		<section class="background">
+			
+		</section>
+
+
+        <!------------  joinus section -------->
+        <section class="joinus">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <h2 class="join-title">Why Join Us ?</h2>
+                        <span class="join-line"></span>
+                        <div id="wrapper">
+                            <ul>
+                                <li>Lorem ipsum dolor sit.</li>
+                                <li>Lorem ipsum dolor sit.</li>
+                                <li>Lorem ipsum dolor sit.</li>
+                                <li>Lorem ipsum dolor sit.</li>
+                                <li>Lorem ipsum dolor sit.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <form class="needs-validation form-box-1" novalidate>
+                        
+                                <h2 class="join-title2">Get Started Now</h2>
+                                <span class="join-line2"></span>
+                
+                                <div class="form-group">
+                                    <label for="validationTooltip01">Full Name</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroupPrepend"><i class="fas fa-user icon"></i></span>
+                                        </div>
+                                        <input type="text" class="form-control" id="validationTooltip01" placeholder="your full name" required>
+                                        <div class="valid-tooltip">
+                                            Looks good!
+                                        </div>
+                                    </div>
+                                </div>
+            
+            
+            
+                                <div class="form-group">
+                                    <label for="validationTooltip02" for="exampleInputEmail1"> E-mail</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroupPrepend"><i class="fas fa-envelope icon"></i></span>
+                                        </div>
+                                        <input type="email" class="form-control email-txt" id="validationTooltip02" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email@example.com" required>
+                                        <div class="invalid-tooltip">
+                                            Please choose a valid EmaiL.
+                                        </div>
+                                    </div>
+                                </div>
+            
+            
+            
+                                <div class="form-group">
+                                    <label for="validationTooltip03">Contact No</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroupPrepend"><i class="fas fa-phone-alt icon"></i></span>
+                                        </div>
+                                        <input type="tel" class="form-control" id="validationTooltip03" placeholder="+91" required>
+                                        <div class="invalid-tooltip">
+                                            Please provide a valid Contact No.
+                                        </div>
+                                    </div>				  		
+                                </div>
+            
+                                    
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-success btn-block button" style="margin-bottom: 2.3rem; margin-top: 1.8rem;">Submit</button>
+                                </div>                        
+                        </form>            
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Another Background -->
+		<section class="background-one">
+			
+		</section>
+
+
+
+        <!--------- our speciality section -------->
+        <section id="speciality">
+            <h2 class="t-title">Our Speciality</h2>
+            <span class="t-line"></span>
+
+            <div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="card">
+                            <div class="inner">
+                                <img class="card-img-top" src="img/london-tower.jpg" alt="London image">
+                            </div>							
+							<div class="card-body">
+								<h3 class="card-title"><i class="fas fa-map-marker-alt"></i> Grester London, United Kingdom</h3>
+								<a href="#" class="card-link">Lorem Ipsum is simply dummy text</a>
+								<br>
+								<p class="card-text card-p">
+									<div class="icon">
+										<i class="fas fa-star fa-1x"></i>
+										<i class="fas fa-star fa-1x"></i>
+										<i class="fas fa-star fa-1x"></i>
+										<i class="fas fa-star fa-1x"></i>
+										<i class="fas fa-star fa-1x"></i>
+									</div>
+								&nbsp;48 Reviews</p>
+								<span class="card-text"><i class="far fa-clock fa-1x"></i>
+                                3hours 4minutes</span> 
+                                <button type="button" class="btn btn-success btn-lg btn-block" style="margin-top: 10px;">Learn More</button>                                              
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="card">
+                            <div class="inner">
+                                <img class="card-img-top" src="img/china-wall.jpg" alt="golden-gate image">
+                            </div>							
+							<div class="card-body">
+								<h3 class="card-title"><i class="fas fa-map-marker-alt"></i> Grester London, United Kingdom</h3>
+								<a href="#" class="card-link">Lorem Ipsum is simply dummy text</a>
+								<br>
+								<p class="card-text card-p">
+									<div class="icon">
+										<i class="fas fa-star fa-1x"></i>
+										<i class="fas fa-star fa-1x"></i>
+										<i class="fas fa-star fa-1x"></i>
+										<i class="fas fa-star fa-1x"></i>
+										<i class="fas fa-star fa-1x"></i>
+									</div>
+								&nbsp;100 Reviews</p>
+								<span class="card-text"><i class="far fa-clock fa-1x"></i>
+                                8hours 10minutes</span>
+                                <button type="button" class="btn btn-success btn-lg btn-block" style="margin-top: 10px;">Learn More</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="card">
+                            <div class="inner">
+                                <img class="card-img-top" src="img/statue-of-librety.jpg" alt="italy image">
+                            </div>
+							<div class="card-body">
+								<h3 class="card-title"><i class="fas fa-map-marker-alt"></i> Grester London, United Kingdom</h3>
+								<a href="#" class="card-link">Lorem Ipsum is simply dummy text</a>
+								<br>
+								<p class="card-text card-p">
+									<div class="icon">
+										<i class="fas fa-star fa-1x"></i>
+										<i class="fas fa-star fa-1x"></i>
+										<i class="fas fa-star fa-1x"></i>
+										<i class="fas fa-star fa-1x"></i>
+										<i class="fas fa-star fa-1x"></i>
+									</div>
+								&nbsp;50 Reviews</p>
+								<span class="card-text"><i class="far fa-clock fa-1x"></i>
+                                1hours 20minutes</span>
+                                <button type="button" class="btn btn-success btn-lg btn-block" style="margin-top: 10px;">Learn More</button>
+							</div>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    
+        <!-- Last Background -->
+		<section class="background-two">
+			
+		</section>
+
+
+        <!---------------  footer section  -------->
+        <footer>
+            <section class="section-1">
+                <section class="about">
+                    <h2>ABOUT</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis expedita reprehenderit sequi porro tenetur recusandae, odio cum laboriosam unde! Similique minus dolorum officiis quae, asperiores sapiente vitae consequatur libero maxime? Dolorem beatae soluta totam commodi. In consequatur voluptas placeat illo. Totam ad unde enim error, odit fuga harum rem similique?,
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit repudiandae necessitatibus assumenda nisi, placeat voluptate nulla architecto. Vero vel, ea labore nemo dolorem, dolore ut quo quas amet, voluptate porro. Esse quaerat earum minus minima architecto, fuga repellat fugiat neque sunt numquam nostrum iure, cupiditate quod debitis! Accusantium, ipsa odit.
+                    </p>
+                </section>
+                <section class="link">
+                    <h2>QUICK LINKS</h2>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Contribute</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">More</a></li>
+                    </ul>
+                </section>
+                <section class="contact">
+                    <h2>CONTACT</h2>
+                    <ul>
+                        <li><i class="fa fa-home"></i><span>SCO-75, Chandigarh, India</span></li>
+                        <li><i class="fa fa-envelope"></i><span>india@gmail.com</span></li>
+                        <li><i class="fa fa-phone-square"></i><span>Mobile: +91xxxxxxxx</span></li>
+                    </ul>
+                </section>
+            </section>
+            <hr noshade>
+    
+            <section class="section-2">
+                <p>Register for free</p>
+                <a href="#">Signup!</a>
+            </section>
+            <hr noshade>
+    
+            <section class="section-3">
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </section>
+    
+            <section class="section-4">
+                <p>Copyright &copy; 2020 All rights reserved by this Website</p>
+            </section>
+        </footer>
+
+            
+    </div>
+
+    <div class="sidebar">
+        <ul>
+            <li><a href="#"><i class="fa fa-home"><span>Home</span></i></a></li>
+            <li><a href="#"><i class="fa fa-user"><span>About</span></i></a></li>
+            <li><a href="#"><i class="fa fa-tasks"><span>Services</span></i></a></li>
+            <li><a href="#"><i class="fa fa-rss"><span>Blog</span></i></a></li>
+            <li><a href="#"><i class="fa fa-id-card"><span>Contact</span></i></a></li>
+        </ul>
+        <div class="social">
+            <a href=""><i class="fa fa-facebook-square"></i></a>
+            <a href=""><i class="fa fa-youtube-square"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>
+        </div>
+    </div>
+
+
+
+
+    <!------------ bootstrap script link ------------>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="index.js"></script>
+
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function() {
+          'use strict';
+          window.addEventListener('load', function() {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function(form) {
+              form.addEventListener('submit', function(event) {
+                if (form.checkValidity() === false) {
+                  event.preventDefault();
+                  event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+              }, false);
+            });
+          }, false);
+        })();
+    </script>
+
+</body>
+</html>
